@@ -1,0 +1,28 @@
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .custom{
+    background-color:#FF9033;
+}
+
+.submitBtn{
+    width: 100%;
+    background-color:#FF9033 !important;
+    border-color: #FF9033 !important;
+    margin-left: 0 !important;
+    margin-top: 15px;
+}
+
+.cardpadding{
+    padding-top: 1 !important;
+    padding-bottom: 1 !important;
+}
+
+.vla{
+    border-left: 5px solid #5cb85c !important;
+}
+.vle{
+    border-left: 5px solid #d9534f !important;
+}

@@ -10,7 +10,6 @@ export const ExpenseProvider = (props) =>{
     let [state, dispatch] = useReducer(TransactionReducer, initialTransactions)
 
     const addTransaction = (transObj) =>{
-        console.log(transObj)
         dispatch({
             type: "ADD_TRANSACTION",
             payload:transObj
@@ -18,7 +17,6 @@ export const ExpenseProvider = (props) =>{
     }
 
     const deleteTransaction = (id) =>{
-        console.log(id)
         dispatch({
             type: "DELETE_TRANSACTION",
             id:id

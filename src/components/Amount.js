@@ -16,15 +16,12 @@ function Amount() {
     return (
         <>
             <Row style={{marginTop: '20px'}}>
-                <Col className="nopadding"></Col>
-                <Col className="nopadding">
+                <Col xs={{ span: 10, offset: 2 }} lg={{ span: 4, offset: 4 }} md={{span: 8, offset: 2 }} sm={{span: 8, offset: 2 }}>
                     <p className="h2">Your Amount : Rs {total}</p>
                 </Col>
-                <Col className="nopadding"></Col>
             </Row>
             <Row style={{marginTop: '20px'}}>
-                <Col className="nopadding"></Col>
-                <Col className="nopadding">
+                <Col xs={{ span: 10, offset: 2 }} lg={{ span: 4, offset: 4 }} md={{span: 8, offset: 2 }} sm={{span: 8, offset: 2 }} >
                     <CardGroup>
                         <Card style={{ width: '18rem' }}>
                             <Card.Body>
@@ -40,7 +37,6 @@ function Amount() {
                         </Card>
                     </CardGroup>
                 </Col>
-                <Col className="nopadding"></Col>
             </Row>
         </>
     );

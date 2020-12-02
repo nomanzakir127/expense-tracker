@@ -35,16 +35,12 @@ const AddTransaction = ()=> {
         <>
             {validationError && <Row style={{marginTop: '20px'}}><Col className="nopadding"></Col><Col className="nopadding"><div className="alert alert-danger">Empty Fields or Zero Amount</div></Col><Col className="nopadding"></Col></Row>}
             <Row style={{marginTop: '20px'}}>
-                <Col className="nopadding"></Col>
-                <Col className="nopadding">
-
+                <Col xs={{ span: 10, offset: 2 }} lg={{ span: 4, offset: 4 }} md={{span: 8, offset: 2 }} sm={{span: 8, offset: 2 }}>
                     <h2>Add Transaction</h2>
                 </Col>
-                <Col className="nopadding"></Col>
             </Row>
             <Row style={{marginTop: '20px', marginBottom: '25px'}}>
-                <Col className="nopadding"></Col>
-                <Col className="nopadding">
+                <Col xs={{ span: 10, offset: 2 }} lg={{ span: 4, offset: 4 }} md={{span: 8, offset: 2 }} sm={{span: 8, offset: 2 }}>
                     <Form>
                         <Form.Group as={Row} controlId="formPlaintextEmail">
                             <Form.Label column sm="2">
@@ -69,7 +65,6 @@ const AddTransaction = ()=> {
                         <Button as={Row} type="submit" className="submitBtn btn btn-primary" onClick = {()=>addTrans()}>Add Transaction</Button>
                     </Form>
                 </Col>
-                <Col className="nopadding"></Col>
             </Row>
         </>
     );
